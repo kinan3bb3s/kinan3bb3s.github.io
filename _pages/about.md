@@ -1,7 +1,10 @@
 ---
-layout: page
-title: "About"
-permalink: /about/
+permalink: /
+title: "Kinan Abbas"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from Tishreen University, Syria, in 2015 and my Master's degree from the same department in 2020.
