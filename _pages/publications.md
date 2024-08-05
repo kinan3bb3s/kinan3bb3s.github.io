@@ -15,6 +15,11 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}--->
 
- <ul>{% for post in site._publicationsJournals reversed %}
+<!--<ul>{% for post in site._publicationsJournals reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  -->
+
+  <ul>{% for post in site._publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

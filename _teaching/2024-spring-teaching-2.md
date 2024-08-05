@@ -1,19 +1,19 @@
 ---
-title: "Teaching experience 2"
+title: "Introduction to Algorithms and Programming"
 collection: teaching
-type: "Workshop"
+type: "Course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "IUT GIM, ULCO university"
+date: 2024-05-01
+location: "Saint Omer, France"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+Prgramming using Pseudo code
 ======
 
-Heading 2
+Aurdion Programming
 ======
 
 Heading 3
