@@ -10,16 +10,16 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<p> Journal Articles </p>
+<!-- <p> Journal Articles </p>
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
 
 <!--<ul>{% for post in site._publicationsJournals reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   -->
 
-  <!-- <ul>{% for post in site._publications reversed %}
+  <ul>{% for post in site._publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
