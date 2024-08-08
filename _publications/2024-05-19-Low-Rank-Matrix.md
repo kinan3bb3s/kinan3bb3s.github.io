@@ -2,6 +2,7 @@
 title: "Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part I: a Matrix-Completion Framework"
 collection: publications
 permalink: /publication/2024-01-01-locally-rank-one-based-joint-unmixing-and-demosaicing-methods-for-snapshot-spectral-images
+category: "Journal Articles"
 excerpt: 'This article presents a matrix-completion framework for locally-rank-one-based joint unmixing and demosaicing methods, focusing on advancements in snapshot spectral imaging.'
 date: 2024-05-19
 venue: 'IEEE Transactions on Computational Imaging'

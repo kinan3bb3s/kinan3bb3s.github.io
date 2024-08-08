@@ -2,6 +2,7 @@
 title: "Fabry-Perot Spectral Deconvolution with Entropy-weighted Penalization"
 collection: publications
 permalink: /publication/2024-01-01-fabry-perot-spectral-deconvolution-with-entropy-weighted-penalization
+category: "Journal Articles"
 excerpt: 'This article explores Fabry-Perot spectral deconvolution techniques with entropy-weighted penalization, addressing advancements in sensor signal processing and spectral correction for CMOS sensors.'
 date: 2024-09-01
 venue: 'IEEE Sensors Letters'

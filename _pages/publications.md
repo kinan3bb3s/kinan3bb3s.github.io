@@ -24,8 +24,51 @@ author_profile: true
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-<ul>
+<!-- <ul>
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-</ul>
+</ul> -->
+
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+# Publications
+
+## Journal Articles
+{% for pub in site.publications %}
+  {% if pub.category == "Journal Articles" %}
+    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+  {% endif %}
+{% endfor %}
+
+## International Conferences with Proceedings
+{% for pub in site.publications %}
+  {% if pub.category == "International Conferences with Proceedings" %}
+    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+  {% endif %}
+{% endfor %}
+
+## International Conferences without Proceedings
+{% for pub in site.publications %}
+  {% if pub.category == "International Conferences without Proceedings" %}
+    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+  {% endif %}
+{% endfor %}
+
+## National Conferences with Proceedings
+{% for pub in site.publications %}
+  {% if pub.category == "National Conferences with Proceedings" %}
+    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+  {% endif %}
+{% endfor %}
+
+## National Conferences without Proceedings
+{% for pub in site.publications %}
+  {% if pub.category == "National Conferences without Proceedings" %}
+    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+  {% endif %}
+{% endfor %}
