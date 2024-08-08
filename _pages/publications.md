@@ -41,7 +41,7 @@ permalink: /publications/
 ## Journal Articles
 {% for pub in site.publications %}
   {% if pub.category == "Journal Articles" %}
-    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+    {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
 
