@@ -1,0 +1,14 @@
+<div class="publication-entry">
+    {% if pub.authors %}{{ pub.authors }}.{% endif %}
+    {% if pub.title %} "{{ pub.title }}."{% endif %}
+    {% if pub.journal %} <i>{{ pub.journal }}</i>,{% endif %}
+    {% if pub.volume %} vol. {{ pub.volume }},{% endif %}
+    {% if pub.number %} no. {{ pub.number }},{% endif %}
+    {% if pub.pages %} pp. {{ pub.pages }},{% endif %}
+    {% if pub.date %} {{ pub.date | date: "%B %Y" }}.{% endif %}
+    {% if pub.doi %} DOI: <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>.{% endif %}
+    {% if pub.url %} Available: <a href="{{ pub.url }}">{{ pub.url }}</a>.{% endif %}
+    <br>
+    <a href="{{ pub.download_url }}" class="btn btn-primary" download>Download</a>
+  </div>
+  

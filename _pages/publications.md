@@ -30,50 +30,39 @@ author_profile: true
 {% endfor %}
 </ul> -->
 
----
-layout: page
-title: Publications
-permalink: /publications/
----
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 # Publications
 
 ## Journal Articles
 {% for pub in site.publications %}
   {% if pub.category == "Journal Articles" %}
-    {% include archive-single-cv.html %}
+    {% include publication.html pub=pub %}
   {% endif %}
 {% endfor %}
 
 ## International Conferences with Proceedings
 {% for pub in site.publications %}
   {% if pub.category == "International Conferences with Proceedings" %}
-    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+    {% include publication.html pub=pub %}
   {% endif %}
 {% endfor %}
 
 ## International Conferences without Proceedings
 {% for pub in site.publications %}
   {% if pub.category == "International Conferences without Proceedings" %}
-    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+    {% include publication.html pub=pub %}
   {% endif %}
 {% endfor %}
 
 ## National Conferences with Proceedings
 {% for pub in site.publications %}
   {% if pub.category == "National Conferences with Proceedings" %}
-    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+    {% include publication.html pub=pub %}
   {% endif %}
 {% endfor %}
 
 ## National Conferences without Proceedings
 {% for pub in site.publications %}
   {% if pub.category == "National Conferences without Proceedings" %}
-    * {{ pub.date | date: "%Y" }} - {{ pub.title }}
+    {% include publication.html pub=pub %}
   {% endif %}
 {% endfor %}
