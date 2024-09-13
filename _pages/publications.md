@@ -1,38 +1,78 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% include base_path %}
 
-<!-- {% include base_path %} -->
-<!-- <p> Journal Articles </p>
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<!-- {% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %} -->
+
+
+Journal Articles
+======
+  <ul>{% for post in site.publications reversed %}
+  {% if post.category == "Journal Articles" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+  {% endfor %}</ul>
+
+
+International Conferences with Proceedings
+======
+  <ul>{% for post in site.publications reversed %}
+  {% if post.category == "International Conferences with Proceedings" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+  {% endfor %}</ul>
+
+International Conferences without Proceedings
+======
+  <ul>{% for post in site.publications reversed %}
+  {% if post.category == "International Conferences without Proceedings" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+  {% endfor %}</ul>
+
+National Conferences with Proceedings
+======
+  <ul>{% for post in site.publications reversed %}
+  {% if post.category == "National Conferences" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+  {% endfor %}</ul>
+
+  
+  
+
+<!-- {% for pub in site.publications %}
+  {% if pub.category == "Journal Articles" %}
+    {% include publication.html pub=pub %}
+  {% endif %}
 {% endfor %} -->
 
-<!--<ul>{% for post in site._publicationsJournals reversed %}
+
+
+
+<!-- ul>{% for post in site._publicationsJournals reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  -->
+  
 
-  <!-- <ul>{% for post in site._publications reversed %}
+  <ul>{% for post in site._publications reversed %} 
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul> 
 
-<!-- <ul>
+<ul>
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-</ul> -->
+</ul>  -->
 
-# Publications
-
-## Journal Articles
+<!-- ## Journal Articles
 {% for pub in site.publications %}
   {% if pub.category == "Journal Articles" %}
     {% include publication.html pub=pub %}
@@ -65,4 +105,6 @@ author_profile: true
   {% if pub.category == "National Conferences without Proceedings" %}
     {% include publication.html pub=pub %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
+
+

@@ -36,7 +36,21 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% if post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.citation }}
+        {% if post.award and post.venue contains "WHISPERS" %}
+          <span style="color: red; font-weight: bold;"> {{ post.award }}</span>
+        {% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">Article Link</a>
+        {% endif %}
+        <!-- Add Author Version Button -->
+        {% if post.author_version %}
+          , <a href="{{ base_path }}/files/{{ post.author_version }}" target="_blank" >Author Version</a>
+        {% endif %}
+      </p>
+    {% endif %}
     </li>
  </article>
 </div>
