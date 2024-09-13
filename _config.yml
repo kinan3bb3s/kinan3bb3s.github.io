@@ -24,9 +24,9 @@ author:
   avatar           : "profile.jpeg"
   name             : "Kinan Abbas"
   pronouns         : # example: "he/him"  
-  bio              : "Postdoctoral Researcher at ENS Lyon and Pulsalys Company"
+  bio              : "Postdoctoral Researcher at ENS Lyon in collaboration with XmBauble and PULSALYS"
   location         : "Lyon, France"
-  employer         : "ENS Lyon and Pulsalys"
+  employer         : "ENS Lyon"
   uri              : # URL
   email            : "kinan.3bbas@gmail.com" 
 
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
