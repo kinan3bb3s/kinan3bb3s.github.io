@@ -23,6 +23,7 @@ Before my PhD, I had six years of work experience in software development and bu
 
 ### July 15, 2024
 - Started a postdoc at ENS Lyon in collaboration with Pulsalys and XMBauble companies. 
+
 ### May 3, 2024
 - Two journal articles accepted in *IEEE Transactions on Computational Imaging* (TCI):
   1. **"Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part I: A Matrix-Completion Framework."** [Link](https://ieeexplore.ieee.org/document/10535266){:target="_blank"}
