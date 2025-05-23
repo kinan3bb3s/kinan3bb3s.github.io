@@ -19,6 +19,12 @@ Before my PhD, I had six years of work experience in software development and bu
 ### May 23, 2025
 - Presented my PhD work on "Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images" at LS2N lab in Nantes, France. [Slides](https://kinan3bb3s.github.io/files/Joint_Unmixing_and%20Demosaicing_Kinan_ABBAS.pdf){:target="_blank"}
 
+### May 20, 2025
+- Our latest article titled **"Diffusion Models for Multifractal Texture Synthesis"** has been accepted in EUSIPCO 2025 conference. Author version will be provided soon.
+
+### January 7, 2025
+- XMBauble team presented our work on texture analysis for anti-counterfeiting at CES 2025 in Las Vegas, USA. [Photos](https://www.linkedin.com/posts/stephane-buisson_regionaura-activity-7283626694463164416-uuFL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC2GIcoBDK53GFLml2llQ1b2a674xCLBvuk){:target="_blank"}
+  
 ### September 3, 2024
 - Defended my PhD at ULCO University, LISIC Lab. [Photos](https://www.linkedin.com/feed/update/urn:li:activity:7236968286125502464/){:target="_blank"}
 
