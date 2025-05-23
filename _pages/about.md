@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from Tishreen University, Syria, in 2015 and my Master's degree from the same department in 2020.
+I am a postdoctoral researcher at the Physics Lab of ENS Lyon, France, working on texture analysis, few-shot learning, and diffusion models. 
 
 I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Opale (ULCO), France, with the LISIC Laboratory. My research interests focus on low-rank matrix approximation and completion, inverse problems, and wavelet analysis with applications in hyperspectral imaging.
 
-Before my PhD, I had six years of work experience in software development and business analysis, which helped me to develop my programming, critical thinking, and project management skills on the highest level.
+I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from Tishreen University, Syria, in 2015, and my Master's degree from the same department in 2020.
+
+Before my PhD, I had six years of work experience in software development and business analysis, which helped me develop my programming, critical thinking, and project management skills to the highest levels.
 
 ## News
 ### May 23, 2025
