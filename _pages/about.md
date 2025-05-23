@@ -14,6 +14,8 @@ I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Op
 Before my PhD, I had six years of work experience in software development and business analysis, which helped me to develop my programming, critical thinking, and project management skills on the highest level.
 
 ## News
+### May 23, 2025
+- Presented my PhD work on "Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images" at LS2N lab in Nantes, France. [Slides](https://kinan3bb3s.github.io/files/Joint_Unmixing_and%20Demosaicing_Kinan_ABBAS.pdf){:target="_blank"}
 
 ### September 3, 2024
 - Defended my PhD at ULCO University, LISIC Lab. [Photos](https://www.linkedin.com/feed/update/urn:li:activity:7236968286125502464/){:target="_blank"}
