@@ -6,9 +6,9 @@ category: "Journal Articles"
 excerpt: 'This article introduces a filtering-based framework for locally-rank-one-based joint unmixing and demosaicing methods, offering new insights into the processing of snapshot spectral images.'
 date: 2024-05-20
 venue: 'IEEE Transactions on Computational Imaging'
-slidesurl: ''  # Add URL if slides or presentation materials are available
+# slidesurl: ''  # Add URL if slides or presentation materials are available
 paperurl: 'https://ieeexplore.ieee.org/document/10535201'  # Add URL if the paper is available online
-citation: 'Abbas, Kinan, Puigt, Matthieu, Delmaire, Gilles, and Roussel, Gilles. (2024). &quot;Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part II: A Filtering-Based Framework.&quot; <i>IEEE Transactions on Computational Imaging</i>, vol. 10, pp. 806-817, 2024.'
+citation: '<u><b>Kinan Abbas</b></u>, Matthieu Puigt, Gilles Delmaire, Gilles Roussel. (2024). &quot;Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part II: A Filtering-Based Framework.&quot; <i>IEEE Transactions on Computational Imaging</i>, vol. 10, pp. 806-817, 2024.'
 author_version: 'TCI.2024.3402441.pdf'  # Point to the file in the files folder
 ---
 

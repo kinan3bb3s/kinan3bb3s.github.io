@@ -6,9 +6,9 @@ category: "Journal Articles"
 excerpt: 'This article presents a matrix-completion framework for locally-rank-one-based joint unmixing and demosaicing methods, focusing on advancements in snapshot spectral imaging.'
 date: 2024-05-19
 venue: 'IEEE Transactions on Computational Imaging'
-slidesurl: ''  # Add URL if slides or presentation materials are available
+# slidesurl: ''  # Add URL if slides or presentation materials are available
 paperurl: 'https://ieeexplore.ieee.org/document/10535266'  # Add URL if the paper is available online
-citation: 'Abbas, Kinan, Puigt, Matthieu, Delmaire, Gilles, and Roussel, Gilles. (2024). &quot;Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part I: a Matrix-Completion Framework.&quot; <i>IEEE Transactions on Computational Imaging</i>,  vol. 10, pp. 848-862, 2024.'
+citation: '<u><b>Kinan Abbas</b></u>, Matthieu Puigt, Gilles Delmaire, Gilles Roussel. (2024). &quot;Locally-Rank-One-Based Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images. Part I: a Matrix-Completion Framework.&quot; <i>IEEE Transactions on Computational Imaging</i>,  vol. 10, pp. 848-862, 2024.'
 author_version: 'TCI.2024.3402322.pdf'  # Point to the file in the files folder
 
 

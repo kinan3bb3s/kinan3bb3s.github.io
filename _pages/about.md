@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at the Physics Lab of ENS Lyon, France, working on texture analysis, few-shot learning, and diffusion models. 
+I am a postdoctoral researcher at the Physics Lab of ENS Lyon [LPENSL](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, working on texture analysis, few-shot learning, and diffusion models. 
 
-I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Opale (ULCO), France, with the LISIC Laboratory. My Ph.D. work focused on low-rank matrix approximation and completion, inverse problems, and spectral correction with applications in hyperspectral imaging.
+I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Opale ([ULCO](https://www.univ-littoral.fr/){:target="_blank"}), France, with the [LISIC](https://lisic-prod.univ-littoral.fr/){:target="_blank"} Laboratory. My Ph.D. work focused on low-rank matrix approximation and completion, inverse problems, and spectral correction with applications in hyperspectral imaging.
 
-I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from Tishreen University, Syria, in 2015, and my Master's degree from the same department in 2020.
+I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from [Latakia University](https://latakia-univ.edu.sy/fr){:target="_blank"} (Tishreen University before 2025), Syria, in 2015, and my Master's degree from the same department in 2020.
 
 Before my PhD, I had six years of work experience in software development and business analysis, which helped me develop my programming, critical thinking, and project management skills to the highest levels.
 

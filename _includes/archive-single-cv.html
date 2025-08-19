@@ -49,6 +49,10 @@
         {% if post.author_version %}
           , <a href="{{ base_path }}/files/{{ post.author_version }}" target="_blank" >Author Version</a>
         {% endif %}
+        <!-- Add Slide URL Button -->
+        {% if post.slidesurl %}
+          , <a href="{{ base_path }}/files/{{ post.slidesurl }}" target="_blank" >Slides</a>
+        {% endif %}
       </p>
     {% endif %}
     </li>
