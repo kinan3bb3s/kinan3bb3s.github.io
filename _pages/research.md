@@ -45,7 +45,7 @@ This project is a part of my postdoctoral research at the [Physics Laboratory of
       <figcaption>SSI Image</figcaption>
     </div>
     <div>
-      <img src="PPID.PNG" alt="PPID" style="width: 75%;">
+      <img src="PPID.png" alt="PPID" style="width: 75%;">
       <figcaption>PPID</figcaption>
     </div>
     <div>
@@ -63,7 +63,7 @@ This project is a part of my postdoctoral research at the [Physics Laboratory of
       <figcaption>VPWNMF</figcaption>
     </div>
     <div>
-      <img src="FPKmeans_v4.png" alt="FPKmeans" style="width: 75%;">
+      <img src="FPKmeans_V4.png" alt="FPKmeans" style="width: 75%;">
       <figcaption>FPKmeans</figcaption>
     </div>
     <div>
