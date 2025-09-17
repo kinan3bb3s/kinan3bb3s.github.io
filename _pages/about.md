@@ -16,6 +16,12 @@ I received my Bachelor's degree in Informatics Engineering, Systems, and Compute
 Before my PhD, I had six years of work experience in software development and business analysis, which helped me develop my programming, critical thinking, and project management skills to the highest levels.
 
 ## News
+### September 11, 2025
+- Participated in the 33rd European Signal Processing Conference (EUSIPCO 2025) in Palermo, Italy. [Link](https://www.linkedin.com/feed/update/urn:li:activity:7371916842384125953/){:target="_blank"}
+
+### August 25, 2025
+- Participated in XXXe Colloque Francophone de Traitement du Signal et des Images (GRETSI 2025) in Strasbourg, France with two articles. [Link](https://www.linkedin.com/feed/update/urn:li:activity:7363822929244999680/){:target="_blank"}
+
 ### May 23, 2025
 - Presented my PhD work on "Joint Unmixing and Demosaicing Methods for Snapshot Spectral Images" at LS2N lab in Nantes, France. [Slides](https://kinan3bb3s.github.io/files/Joint_Unmixing_and%20Demosaicing_Kinan_ABBAS.pdf){:target="_blank"}
 

@@ -24,6 +24,15 @@ This project is a part of my postdoctoral research at the [Physics Laboratory of
 </div>
 
 
+## Source Separation of Multifractal Signals and Multivariate Fractional Brownian Motion
+
+In collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"}, [Herwig Wendt](https://www.irit.fr/~Herwig.Wendt/){:target="_blank"}, and  [Gustavo Didier](https://sse.tulane.edu/gustavo-didier){:target="_blank"}, I am currently working on **source separation for multifractal and self-similar Gaussian processes**.  
+
+This research focuses on **multivariate fractional Brownian motion (mfBm)**, which are **Gaussian processes with stationary increments** and exhibit long-range dependence and scaling properties. When observed as **linear mixtures of latent sources**, the challenge is to recover the hidden processes and their scaling behaviors.  
+
+The main objective of this work is to develop **blind source separation (BSS)** methodologies able to jointly estimate the **mixing matrix \(W\)** and the **covariance structure \(Sigma\)** of the underlying Gaussian sources. Such frameworks provide new tools for analyzing complex scale-invariant data encountered in **physics, neuroscience, and finance**.
+
+
 ## Texture Analysis for the Detection of Counterfeit Luxury Products
 
  This work has been done as a part of my Postdoc at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, since July 15, 2024, in collaboration with [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, focusing on developing innovative solutions in texture analysis and anti-counterfeiting technologies through machine learning and computer vision, alongside experts Prof. [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and Dr. [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"} . This project targets the analysis of textures for anti-counterfeiting applications, successfully applied to leather, carpets, and textiles, aiming to address challenges posed by **texture variability** due to factors such as differences between cameras, lighting condition variations, shooting angles (*Point of View, POV*), and other environmental or contextual constraints. Our approach leverages **hyperbolic wavelet transforms** combined with deep learning techniques, specifically exploring **few-shot learning** and **Siamese networks** to enhance the methodology.
