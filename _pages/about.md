@@ -6,16 +6,30 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<!-- 
 I am a postdoctoral researcher at the Physics Lab of ENS Lyon [LPENSL](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, working on texture analysis, few-shot learning, and diffusion models. 
 
 I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Opale ([ULCO](https://www.univ-littoral.fr/){:target="_blank"}), France, with the [LISIC](https://lisic-prod.univ-littoral.fr/){:target="_blank"} Laboratory. My Ph.D. work focused on low-rank matrix approximation and completion, inverse problems, and spectral correction with applications in hyperspectral imaging.
 
 I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from [Latakia University](https://latakia-univ.edu.sy/fr){:target="_blank"} (Tishreen University before 2025), Syria, in 2015, and my Master's degree from the same department in 2020.
 
-Before my PhD, I had six years of work experience in software development and business analysis, which helped me develop my programming, critical thinking, and project management skills to the highest levels.
+Before my PhD, I had six years of work experience in software development and business analysis, which helped me develop my programming, critical thinking, and project management skills to the highest levels. -->
+
+I am a postdoctoral researcher at the Physics Laboratory of ENS Lyon ([LPENSL](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}), France, affiliated with the [CNRS](https://www.cnrs.fr/){:target="_blank"}. My current work focuses on multifractal analysis, multiresolution statistical modeling of spatial data (e.g., geographic rasters), as well as texture analysis and generative models for imaging, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
+
+Between July 2024 and January 2026, I worked on statistical learning, texture analysis, and generative models for image analysis in collaboration with industrial partners [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, under the supervision of Patrice Abry and Stéphane Roux.
+
+I completed my Ph.D. in September 2024 at the Université du Littoral Côte d'Opale ([ULCO](https://www.univ-littoral.fr/){:target="_blank"}), France, with the [LISIC](https://lisic-prod.univ-littoral.fr/){:target="_blank"} Laboratory, under the supervision of [Matthieu Puigt](https://www-lisic.univ-littoral.fr/~puigt/){:target="_blank"} and [Gilles Roussel](https://scholar.google.com/citations?user=gtdZ87MAAAAJ&hl=fr){:target="_blank"}. My Ph.D. work focused on low-rank matrix approximation and completion, inverse problems, and spectral correction, with applications in hyperspectral imaging.
+
+I received my Bachelor's degree in Informatics Engineering, Systems, and Computer Networks from [Latakia University](https://latakia-univ.edu.sy/fr){:target="_blank"} (formerly Tishreen University), Syria, in 2015, and my Master's degree from the same department in 2020.
+
+Before my Ph.D., I had six years of experience in software development and business analysis, which helped me develop strong skills in programming, critical thinking, and project management.
+
 
 ## News
+### January 15, 2026
+- Started a postdoctoral position with the [CNRS](https://www.cnrs.fr/){:target="_blank"} at the Physics Laboratory of ENS Lyon ([LPENSL](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}), working on multifractal analysis, multiresolution statistical modeling, and generative models for imaging, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
+
 ### September 11, 2025
 - Participated in the 33rd European Signal Processing Conference (EUSIPCO 2025) in Palermo, Italy. [Link](https://www.linkedin.com/feed/update/urn:li:activity:7371916842384125953/){:target="_blank"}
 

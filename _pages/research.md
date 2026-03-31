@@ -6,7 +6,9 @@ author_profile: true
 ---
 ## Diffusion Models for Multifractal Texture Synthesis
 
-This project is a part of my postdoctoral research at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, in collaboration with Prof. [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and Dr. [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}. We are investigating the degree to which diffusion models can generate univariate and multivariate multifractal, as well as anisotropic textures. We evaluate the performance using advanced multiscale analyses like wavelet-leader and dual-tree complex wavelet transforms, with the final goal of developing a model that can generate better textures. This research has recently resulted in two publications: "Modèles de diffusion pour la synthèse de textures anisotropes" accepted at [GRETSI 2025](https://kinan3bb3s.github.io/files/GRETSI_2025_Diffusion_Models_Anisotropic.pdf){:target="_blank"}, and "Diffusion Models for Multifractal Texture Synthesis" accepted at [EUSIPCO 2025](https://kinan3bb3s.github.io/files/EUSIPCO_2025.pdf){:target="_blank"}.
+This project is a part of my postdoctoral research at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}. We are investigating the degree to which diffusion models can generate univariate and multivariate multifractal, as well as anisotropic textures. We evaluate the performance using advanced multiscale analyses like wavelet-leader and dual-tree complex wavelet transforms, with the final goal of developing a model that can generate better textures. This research has recently resulted in two publications: "Modèles de diffusion pour la synthèse de textures anisotropes" accepted at [GRETSI 2025](https://kinan3bb3s.github.io/files/GRETSI_2025_Diffusion_Models_Anisotropic.pdf){:target="_blank"}, and "Diffusion Models for Multifractal Texture Synthesis" accepted at [EUSIPCO 2025](https://kinan3bb3s.github.io/files/EUSIPCO_2025.pdf){:target="_blank"}.
+
+Starting from April 2026, an M2 intern, Jhonatan Ancco Cerda, will work on this project until September 2026, focusing on latent diffusion models for multifractal texture generation.
 <div style="text-align: center;">
   <figure>
     <div style="display: flex; gap: 20px; justify-content: center;">
@@ -24,22 +26,24 @@ This project is a part of my postdoctoral research at the [Physics Laboratory of
 </div>
 
 
-## Source Separation of Multifractal Signals and Multivariate Fractional Brownian Motion
+## Source Separation of Multivariate Fractional Brownian Motion
 
-In collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"}, [Herwig Wendt](https://www.irit.fr/~Herwig.Wendt/){:target="_blank"}, and  [Gustavo Didier](https://sse.tulane.edu/gustavo-didier){:target="_blank"}, I am currently working on **source separation for multifractal and self-similar Gaussian processes**.  
+In collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"}, [Herwig Wendt](https://www.irit.fr/~Herwig.Wendt/){:target="_blank"}, and  [Gustavo Didier](https://sse.tulane.edu/gustavo-didier){:target="_blank"}, I am currently working on **source separation for multivariate self-similar Gaussian processes**.  
 
 This research focuses on **multivariate fractional Brownian motion (mfBm)**, which are **Gaussian processes with stationary increments** and exhibit long-range dependence and scaling properties. When observed as **linear mixtures of latent sources**, the challenge is to recover the hidden processes and their scaling behaviors.  
 
 The main objective of this work is to develop **blind source separation (BSS)** methodologies able to jointly estimate the **mixing matrix \(W\)** and the **covariance structure \(Sigma\)** of the underlying Gaussian sources. Such frameworks provide new tools for analyzing complex scale-invariant data encountered in **physics, neuroscience, and finance**.
 
+A first article based on this work, “Wavelet-based Demixing for Multivariate Fractional Brownian Motion”, has been submitted to the European Signal Processing Conference (EUSIPCO 2026).
+
 
 ## Texture Analysis for the Detection of Counterfeit Luxury Products
 
- This work has been done as a part of my Postdoc at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, since July 15, 2024, in collaboration with [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, focusing on developing innovative solutions in texture analysis and anti-counterfeiting technologies through machine learning and computer vision, alongside experts Prof. [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and Dr. [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"} . This project targets the analysis of textures for anti-counterfeiting applications, successfully applied to leather, carpets, and textiles, aiming to address challenges posed by **texture variability** due to factors such as differences between cameras, lighting condition variations, shooting angles (*Point of View, POV*), and other environmental or contextual constraints. Our approach leverages **hyperbolic wavelet transforms** combined with deep learning techniques, specifically exploring **few-shot learning** and **Siamese networks** to enhance the methodology.
+ This work has been done as a part of my Postdoc at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, since July 15, 2024, in collaboration with [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, focusing on developing innovative solutions in texture analysis and anti-counterfeiting technologies through machine learning and computer vision, alongside experts  [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"} . This project targets the analysis of textures for anti-counterfeiting applications, successfully applied to leather, carpets, and textiles, aiming to address challenges posed by **texture variability** due to factors such as differences between cameras, lighting condition variations, shooting angles (*Point of View, POV*), and other environmental or contextual constraints. Our approach leverages **hyperbolic wavelet transforms** combined with deep learning techniques, specifically exploring **few-shot learning** and **Siamese networks** to enhance the methodology.
 
 ## Thesis: Joint demosaicing and unmixing of multispectral images
 
- I did my thesis in the LISIC lab at ULCO University under the supervision of Prof. [Matthieu Puigt](https://www-lisic.univ-littoral.fr/~puigt/){:target="_blank"} and Prof. [Gilles Roussel](https://scholar.google.com/citations?user=gtdZ87MAAAAJ&hl=fr){:target="_blank"}.
+ I did my thesis in the LISIC lab at ULCO University under the supervision of [Matthieu Puigt](https://www-lisic.univ-littoral.fr/~puigt/){:target="_blank"} and [Gilles Roussel](https://scholar.google.com/citations?user=gtdZ87MAAAAJ&hl=fr){:target="_blank"}.
 
  In this work, we consider images sensed by a miniaturized multispectral (MS) snapshot camera. Contrary to classical RGB cameras, MS imaging allows for observing a scene on tens of different wavelengths, allowing a much more precise analysis of the observed content. 
 
