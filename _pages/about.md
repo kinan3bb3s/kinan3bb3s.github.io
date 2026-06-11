@@ -27,11 +27,11 @@ Before my Ph.D., I had six years of experience in software development and busin
 
 
 ## News
-### June 11, 2026
-- Our article **"Wavelet-based Demixing for Multivariate Fractional Brownian Motion"** is in the proceedings of the 34th European Signal Processing Conference (EUSIPCO 2026), Bruges, Belgium. [Author version](https://kinan3bb3s.github.io/files/Eusipco26_OfBm_Demix.pdf){:target="_blank"}
-
 ### June 8, 2026
 - Jhonatan Ancco Cerda presented our latest work on **GAN-based generation and super-resolution of multivariate multifractal textures** at *IA pour les sciences exactes et expérimentales : des architectures à la mise en pratique*, Université Claude Bernard Lyon 1. [Slides](https://kinan3bb3s.github.io/files/GAN_Based_Generation_and_Super_Resolution_of_Multivariate_Multifractal_Textures.pdf){:target="_blank"}
+
+### May 12, 2026
+- Our article **"Wavelet-based Demixing for Multivariate Fractional Brownian Motion"** is in the proceedings of the 34th European Signal Processing Conference (EUSIPCO 2026), Bruges, Belgium. [Author version](https://kinan3bb3s.github.io/files/Eusipco26_OfBm_Demix.pdf){:target="_blank"}
 
 ### January 15, 2026
 - Started a postdoctoral position with the [CNRS](https://www.cnrs.fr/){:target="_blank"} at the Physics Laboratory of ENS Lyon ([LPENSL](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}), working on multifractal analysis, multiresolution statistical modeling, and generative models for imaging, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
