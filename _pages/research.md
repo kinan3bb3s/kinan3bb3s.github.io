@@ -34,7 +34,7 @@ This research focuses on **multivariate fractional Brownian motion (mfBm)**, whi
 
 The main objective of this work is to develop **blind source separation (BSS)** methodologies able to jointly estimate the **mixing matrix \(W\)** and the **covariance structure \(Sigma\)** of the underlying Gaussian sources. Such frameworks provide new tools for analyzing complex scale-invariant data encountered in **physics, neuroscience, and finance**.
 
-A first article based on this work, “Wavelet-based Demixing for Multivariate Fractional Brownian Motion”, has been submitted to the European Signal Processing Conference (EUSIPCO 2026).
+A first article based on this work, “Wavelet-based Demixing for Multivariate Fractional Brownian Motion”, is in the proceedings of the European Signal Processing Conference (EUSIPCO 2026).
 
 
 ## Texture Analysis for the Detection of Counterfeit Luxury Products
@@ -95,4 +95,3 @@ A first article based on this work, “Wavelet-based Demixing for Multivariate F
 ## Master's Work: Evaluating Fog Computing Scheduling and Placement Algorithms.
 
 My Master's degree in **Computer Engineering / Networks and Computer Systems** was completed at Latakia University( Tishreen University before 2025), Latakia, Syria, following a one-year coursework phase and two years of research, a standard path before pursuing a PhD in the country.  My research focused on **Fog Computing** technologies, specifically evaluating algorithms for placement and scheduling of real-time IoT applications. The methods were tested in a simulated smart city, where analysis of eight placement policies demonstrated that HAFA and iFogStor-G approaches provided optimal service times and reduced cloud processor usage.
-
