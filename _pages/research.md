@@ -4,52 +4,60 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-## Diffusion Models for Multifractal Texture Synthesis
 
-This project is a part of my postdoctoral research at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}. We are investigating the degree to which diffusion models can generate univariate and multivariate multifractal, as well as anisotropic textures. We evaluate the performance using advanced multiscale analyses like wavelet-leader and dual-tree complex wavelet transforms, with the final goal of developing a model that can generate better textures. This research has recently resulted in two publications: "Modèles de diffusion pour la synthèse de textures anisotropes" accepted at [GRETSI 2025](https://kinan3bb3s.github.io/files/GRETSI_2025_Diffusion_Models_Anisotropic.pdf){:target="_blank"}, and "Diffusion Models for Multifractal Texture Synthesis" accepted at [EUSIPCO 2025](https://kinan3bb3s.github.io/files/EUSIPCO_2025.pdf){:target="_blank"}.
+## Research Profile
 
-Starting from April 2026, an M2 intern, Jhonatan Ancco Cerda, will work on this project until September 2026, focusing on latent diffusion models for multifractal texture generation.
-<div style="text-align: center;">
-  <figure>
-    <div style="display: flex; gap: 20px; justify-content: center;">
-      <div>
-        <img src="c1_j.png" alt="Subfigure 1" style="width: 75%;">
-        <figcaption>Cumulant C1(2^j)</figcaption>
-      </div>
-      <div>
-        <img src="c2_j.png" alt="Subfigure 2" style="width: 75%;">
-        <figcaption>Cumulant C2(2^j)</figcaption>
-      </div>
-    </div>
-    <figcaption>Figure: Cumulants C1(2^j) and C2(2^j) as functions of scales, averaged across the training set (blue) and diffusion model generated texture sets, obtained from different noise schedulers. The dashed black line materializes the theoretical scaling behavior across scales.</figcaption>
-  </figure>
-</div>
+> The observed world is often incomplete and mixed. My research asks which statistical, spectral, and multiscale structures make it possible to reconstruct what is missing and recover the hidden sources behind complex data.
 
+My research lies at the intersection of statistical signal and image processing, source separation, inverse problems, multiscale analysis, and machine learning. A central direction of my work concerns the recovery and characterization of latent sources from complex observations by exploiting their structural, statistical, and multiscale properties.
+
+During my Ph.D., I investigated spectral unmixing and source separation in multispectral imaging, developing methods based on sparse component analysis, nonnegative matrix factorization, low-rank models, and inverse problems. More recently, my research has focused on blind source separation of multivariate stochastic processes, where multiscale and covariance structures are exploited to recover latent sources and their statistical properties.
+
+In parallel, I investigate statistical learning and generative models for complex signals and textures, particularly diffusion models and generative adversarial networks for scale-free and multifractal processes. Across these topics, the common thread is the same: building models that turn partial, mixed, or highly structured observations into interpretable representations.
 
 ## Source Separation of Multivariate Fractional Brownian Motion
 
-In collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"}, [Herwig Wendt](https://www.irit.fr/~Herwig.Wendt/){:target="_blank"}, and  [Gustavo Didier](https://sse.tulane.edu/gustavo-didier){:target="_blank"}, I am currently working on **source separation for multivariate self-similar Gaussian processes**.  
+In collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"}, [Herwig Wendt](https://www.irit.fr/~Herwig.Wendt/){:target="_blank"}, and [Gustavo Didier](https://sse.tulane.edu/gustavo-didier){:target="_blank"}, I am currently working on blind source separation for multivariate self-similar Gaussian processes, with a particular focus on multivariate fractional Brownian motion (mfBm).
 
-This research focuses on **multivariate fractional Brownian motion (mfBm)**, which are **Gaussian processes with stationary increments** and exhibit long-range dependence and scaling properties. When observed as **linear mixtures of latent sources**, the challenge is to recover the hidden processes and their scaling behaviors.  
+Multivariate fractional Brownian motions provide models for multivariate stochastic phenomena exhibiting long-range dependence and scale-invariant properties. When only linear mixtures of latent processes are observed, the challenge is to recover the underlying sources together with their scaling and dependence structures.
 
-The main objective of this work is to develop **blind source separation (BSS)** methodologies able to jointly estimate the **mixing matrix \(W\)** and the **covariance structure \(Sigma\)** of the underlying Gaussian sources. Such frameworks provide new tools for analyzing complex scale-invariant data encountered in **physics, neuroscience, and finance**.
+In this setting, the observed multivariate process can be written as
 
-A first article based on this work, “Wavelet-based Demixing for Multivariate Fractional Brownian Motion”, is in the proceedings of the European Signal Processing Conference (EUSIPCO 2026).
+$$
+X(t) = W Y(t),
+$$
 
+where \(X(t)\) denotes the observed mixtures, \(Y(t)\) the latent self-similar sources, and \(W\) the unknown mixing matrix. At the wavelet scale \(2^j\), the covariance structure of the observations can be modeled through
 
-## Texture Analysis for the Detection of Counterfeit Luxury Products
+$$
+\mathrm{Cov}(d_X(j, k)) = W \, \mathrm{Cov}(d_Y(j, k)) \, W^\top,
+$$
 
- This work has been done as a part of my Postdoc at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, France, since July 15, 2024, in collaboration with [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, focusing on developing innovative solutions in texture analysis and anti-counterfeiting technologies through machine learning and computer vision, alongside experts  [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"} . This project targets the analysis of textures for anti-counterfeiting applications, successfully applied to leather, carpets, and textiles, aiming to address challenges posed by **texture variability** due to factors such as differences between cameras, lighting condition variations, shooting angles (*Point of View, POV*), and other environmental or contextual constraints. Our approach leverages **hyperbolic wavelet transforms** combined with deep learning techniques, specifically exploring **few-shot learning** and **Siamese networks** to enhance the methodology.
+where \(d_X(j,k)\) and \(d_Y(j,k)\) denote wavelet coefficients at scale \(2^j\) and location \(k\).
 
-## Thesis: Joint demosaicing and unmixing of multispectral images
+Our work develops wavelet- and covariance-based source separation methodologies that exploit the multiscale statistical structure of these processes. The objective is to jointly estimate the mixing matrix, the scaling parameters, and the covariance structure of the latent Gaussian sources.
 
- I did my thesis in the LISIC lab at ULCO University under the supervision of [Matthieu Puigt](https://www-lisic.univ-littoral.fr/~puigt/){:target="_blank"} and [Gilles Roussel](https://scholar.google.com/citations?user=gtdZ87MAAAAJ&hl=fr){:target="_blank"}.
+This research provides a framework for blind source separation when classical assumptions such as statistical independence are not necessarily appropriate, by instead exploiting second-order statistics and multiscale scaling structures.
 
- In this work, we consider images sensed by a miniaturized multispectral (MS) snapshot camera. Contrary to classical RGB cameras, MS imaging allows for observing a scene on tens of different wavelengths, allowing a much more precise analysis of the observed content. 
+A first article resulting from this work, ["Wavelet-based Demixing for Multivariate Fractional Brownian Motion"](https://kinan3bb3s.github.io/files/Eusipco26_OfBm_Demix.pdf){:target="_blank"}, appears in the proceedings of the 34th European Signal Processing Conference (EUSIPCO 2026).
 
- While most MS cameras require a scan to generate an image, snapshot MS cameras can instantaneously provide images or even videos. When the camera is miniaturized, instead of a 3D data cube, it gets a 2D image, each pixel being associated with a filtered version of the theoretical spectrum it should acquire. Post-processing, called "demosaicing", is then necessary to reconstruct a data cube. Furthermore, in each pixel of the image, the observed spectrum can be considered as a mixture of spectra of pure materials present in the pixel. Estimating these spectra, named endmembers as well as their spatial distribution (named abundances), is called "unmixing''. While a classical pipeline to process MS snapshot images is to first demosaice and then unmix the data, the work introduced in this thesis explores alternative strategies in which demosaicing and unmixing are jointly performed. Extending classical assumptions met in sparse component analysis and in remote sensing MS unmixing, we propose two different frameworks to restore and unmix the acquired scene, based on low-rank matrix completion and deconvolution, respectively, the latter being specifically designed for Fabry-Perot filters used in the considered camera. The four proposed methods exhibit a far better unmixing enhancement than the variants they extend when the latter are applied to demosaiced data. Still, they allow a similar demosaicing performance as state-of-the-art methods.
+## Ph.D. Research: Joint Demosaicing and Unmixing of Multispectral Images
 
- The last part of the thesis introduces a deconvolution approach to restore the spectra of such cameras. Our contribution lies in the weights of the penalization term, which are automatically set using the entropy of the Fabry-Perot harmonics. The proposed method exhibits a better spectrum restoration than the strategy proposed by the camera manufacturer and than the classical deconvolution technique it extends.
+I conducted my Ph.D. research at [LISIC](https://lisic-prod.univ-littoral.fr/){:target="_blank"}, [Université du Littoral Côte d'Opale](https://www.univ-littoral.fr/){:target="_blank"}, under the supervision of [Matthieu Puigt](https://www-lisic.univ-littoral.fr/~puigt/){:target="_blank"} and [Gilles Roussel](https://scholar.google.com/citations?user=gtdZ87MAAAAJ&hl=fr){:target="_blank"}. My research focused on inverse problems and spectral unmixing for snapshot multispectral imaging.
+
+Unlike conventional multispectral cameras that acquire spectral bands sequentially, snapshot multispectral cameras enable instantaneous acquisition and are therefore suitable for dynamic scenes and videos. However, miniaturized snapshot sensors provide spatially and spectrally incomplete measurements, requiring a reconstruction step known as demosaicing to recover the complete multispectral data cube.
+
+At the same time, the spectrum observed at each spatial location can often be modeled as a mixture of spectra associated with pure materials, called endmembers, with corresponding spatial proportions known as abundances. Recovering these latent components constitutes a spectral unmixing problem.
+
+Rather than following the conventional pipeline in which the multispectral image is first demosaiced and subsequently unmixed, my Ph.D. investigated joint demosaicing and unmixing, incorporating the source-separation problem directly into the reconstruction of the acquired measurements.
+
+Conceptually, this problem links inverse problems and source separation: the measurements are both incomplete because of the sensor acquisition model and mixed because each pixel can contain several latent spectral components.
+
+Building upon assumptions from Sparse Component Analysis (SCA), Nonnegative Matrix Factorization (NMF), and hyperspectral unmixing, I developed several approaches exploiting sparsity, non-negativity, and low-rank structures. Two complementary frameworks were investigated: one based on low-rank matrix completion, and another based on spectral deconvolution, specifically accounting for the Fabry-Perot filters used by the considered snapshot camera.
+
+The resulting methods improved the quality of spectral unmixing while maintaining competitive reconstruction performance compared with conventional sequential approaches.
+
+A further contribution of the thesis concerned spectral deconvolution for Fabry-Perot imaging systems. I developed an entropy-weighted regularization strategy that accounts for the harmonic structure of the filters and improves spectral restoration compared with conventional deconvolution and the manufacturer's reconstruction approach.
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 20px;">
@@ -91,7 +99,52 @@ A first article based on this work, “Wavelet-based Demixing for Multivariate F
   <figcaption>Figure: Segmentation of a Hyko 2 database image for different unmixing methods. Demosaicing is applied to the SSI image, followed by the generation of abundance maps and subsequent segmentation. For the proposed methods (VPWNMF, KPWNMF, FPVCA, FPKmeans, and Naive), unmixing and demosaicing were jointly applied.</figcaption>
 </figure>
 
+## Generative Models for Multifractal Texture Synthesis
 
-## Master's Work: Evaluating Fog Computing Scheduling and Placement Algorithms.
+In parallel with my research on source separation, I investigate generative modeling of scale-free and multifractal stochastic processes at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, in collaboration with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
 
-My Master's degree in **Computer Engineering / Networks and Computer Systems** was completed at Latakia University( Tishreen University before 2025), Latakia, Syria, following a one-year coursework phase and two years of research, a standard path before pursuing a PhD in the country.  My research focused on **Fog Computing** technologies, specifically evaluating algorithms for placement and scheduling of real-time IoT applications. The methods were tested in a simulated smart city, where analysis of eight placement policies demonstrated that HAFA and iFogStor-G approaches provided optimal service times and reduced cloud processor usage.
+The objective is to determine whether modern generative models can reproduce not only the visual appearance of complex textures, but also their multiscale statistical properties.
+
+I have investigated diffusion models, latent diffusion models, and generative adversarial networks for the synthesis of univariate and multivariate multifractal textures. Their performance is evaluated using multiscale statistical tools, including wavelet leaders and wavelet-based cumulants, allowing us to assess whether generated samples reproduce the scaling and multifractal properties of the target processes.
+
+In this line of work, the goal is not only to generate visually plausible samples, but also to preserve the hidden statistical organization of the data across scales.
+
+A further direction of this research concerns the generation of textures on spatial supports larger than those used during training, through fully convolutional generative architectures and self-attention mechanisms.
+
+This research has resulted in work presented at [EUSIPCO 2025](https://kinan3bb3s.github.io/files/EUSIPCO_2025.pdf){:target="_blank"} and [GRETSI 2025](https://kinan3bb3s.github.io/files/GRETSI_2025_Diffusion_Models_Anisotropic.pdf){:target="_blank"}, and continues through the study of multivariate multifractal texture generation and super-resolution.
+
+Starting from April 2026, M2 intern [Jhonatan Ancco Cerda](https://kinan3bb3s.github.io/advising/){:target="_blank"} has worked on this project, focusing on generative AI, diffusion models, and the generation of multivariate, multifractal, and anisotropic textures.
+
+<div style="text-align: center;">
+  <figure>
+    <div style="display: flex; gap: 20px; justify-content: center;">
+      <div>
+        <img src="c1_j.png" alt="Subfigure 1" style="width: 75%;">
+        <figcaption>Cumulant C1(2^j)</figcaption>
+      </div>
+      <div>
+        <img src="c2_j.png" alt="Subfigure 2" style="width: 75%;">
+        <figcaption>Cumulant C2(2^j)</figcaption>
+      </div>
+    </div>
+    <figcaption>Figure: Cumulants C1(2^j) and C2(2^j) as functions of scales, averaged across the training set (blue) and diffusion model generated texture sets, obtained from different noise schedulers. The dashed black line materializes the theoretical scaling behavior across scales.</figcaption>
+  </figure>
+</div>
+
+## Multiscale Texture Analysis and Machine Learning for Counterfeit Detection
+
+As part of my post-Ph.D. research at the [Physics Laboratory of ENS Lyon](https://www.ens-lyon.fr/PHYSIQUE/){:target="_blank"}, in collaboration with [Pulsalys](https://www.pulsalys.fr/){:target="_blank"} and [XMBauble](https://xmbauble.com/){:target="_blank"}, I worked on statistical texture analysis and machine-learning methodologies for the detection of counterfeit luxury products, together with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
+
+The objective was to characterize and recognize material textures under realistic acquisition variability, including changes in cameras, illumination conditions, viewing angles, and other environmental factors. Applications included leather, carpets, and textiles.
+
+Our approach combined hyperbolic wavelet representations and multiscale texture descriptors with machine-learning methods, including few-shot learning and Siamese neural networks, with the objective of achieving robust material recognition from limited reference data.
+
+This work illustrates a broader aspect of my research: combining multiscale statistical representations with modern machine-learning approaches to extract reliable structure from complex signals and images under real acquisition constraints.
+
+## Master's Research: Fog Computing Scheduling and Placement
+
+My Master's degree in Computer Engineering, specializing in Networks and Computer Systems, was completed at Latakia University (formerly Tishreen University) in Syria. The program consisted of one year of advanced coursework followed by two years of research.
+
+My research focused on resource placement and scheduling for real-time IoT applications in fog-computing environments. Different placement policies were evaluated through simulations of smart-city scenarios, with particular attention to service latency and cloud-resource utilization.
+
+The study compared eight placement strategies and showed that HAFA and iFogStor-G provided favorable performance in terms of service time and reduced cloud-processor usage.
