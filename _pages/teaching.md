@@ -5,35 +5,43 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## 2023–2024 (France)
+## ENS Lyon — France
 
-- **Research Presentation / Présentation de la recherche** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 1  
-- **PIC Project / Projet PIC** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 2  
-- **Bibliography Project / Projet de bibliographie** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 2  
-- **R2.02 Computer Science (Algorithms & Arduino) / R2.02 Informatique (Algorithmique & Arduino)** — Institut Universitaire de Technologie du Littoral Côte d’Opale (**IUT ULCO**), Semester 2  
+École Normale Supérieure de Lyon · 2026–2027
 
----
+| Course | Level | Academic year | Semester |
+| :--- | :--- | :--- | :--- |
+| Machine Learning (UE) | M2 Physics | 2026–2027 | 1 |
 
-## 2022–2023 (France)
+Jointly responsible for the course with [Giuseppe Petrillo](https://scholar.google.com/citations?user=PMH0LM4AAAAJ&hl=it){:target="_blank"} and [Pierre Borgnat](https://perso.ens-lyon.fr/pierre.borgnat/){:target="_blank"}.
 
-- **Computer Science Project / Projet informatique** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 1  
-- **Research Presentation / Présentation de la recherche** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 1  
-- **PIC Project / Projet PIC** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 2  
-- **Bibliography Project / Projet de bibliographie** — École d’Ingénieurs du Littoral Côte d’Opale (**EILCO**), Semester 2  
-- **R2.02 Computer Science (Algorithms & Arduino) / R2.02 Informatique (Algorithmique & Arduino)** — Institut Universitaire de Technologie du Littoral Côte d’Opale (**IUT ULCO**), Semester 2  
+## EILCO — France
 
----
+École d’Ingénieurs du Littoral Côte d’Opale · 2022–2024
 
-## 2018–2020 (Syria, Latakia University)
+| Course | Academic years | Semester |
+| :--- | :--- | :--- |
+| Research Presentation | 2022–2023, 2023–2024 | 1 |
+| Computer Science Project | 2022–2023 | 1 |
+| PIC Project | 2022–2023, 2023–2024 | 2 |
+| Bibliography Project | 2022–2023, 2023–2024 | 2 |
 
-- **Digital Communications / Communications Numériques** — 2018–2019, Semester 1  
-- **Information Theory / Théorie de l'Information** — 2018–2019, Semester 2  
-- **Computer Architecture / Architecture des Ordinateurs** — 2018–2019, Semester 2  
-- **Digital Communications / Communications Numériques** — 2019–2020, Semester 1  
-- **Information Theory / Théorie de l'Information** — 2019–2020, Semester 2  
-- **Computer Architecture / Architecture des Ordinateurs** — 2019–2020, Semester 2  
-- **Digital Communications / Communications Numériques** — 2020–2021, Semester 1  
+## IUT ULCO — France
 
----
+Institut Universitaire de Technologie du Littoral Côte d’Opale · 2022–2024
 
+| Course | Academic years | Semester |
+| :--- | :--- | :--- |
+| Computer Science: Algorithms and Arduino (R2.02) | 2022–2023, 2023–2024 | 2 |
 
+## Latakia University — Syria
+
+2018–2021
+
+| Course | Academic years | Semester |
+| :--- | :--- | :--- |
+| Digital Communications | 2018–2019, 2019–2020, 2020–2021 | 1 |
+| Information Theory | 2018–2019, 2019–2020 | 2 |
+| Computer Architecture | 2018–2019, 2019–2020 | 2 |
+
+See [Advising]({{ '/advising/' | relative_url }}) for student and project supervision.

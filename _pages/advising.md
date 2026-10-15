@@ -9,7 +9,8 @@ author_profile: true
 
 - **Jhonatan Ancco Cerda**  
   *Generative AI: Diffusion Models and Generation of Multivariate, Multifractal, and Anisotropic Textures.*  
-  Co-supervised with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.
+  Co-supervised with [Patrice Abry](https://perso.ens-lyon.fr/patrice.abry/){:target="_blank"} and [Stéphane Roux](https://perso.ens-lyon.fr/stephane.roux/){:target="_blank"}.<br>
+  We submitted our article, ["Large-size multivariate scale-free texture generation from small-size learning sets with self-attention Wasserstein-GAN"]({{ '/files/ICASSP_2027.pdf' | relative_url }}){:target="_blank"}, to **ICASSP 2027**.
 
 - **A. El Hyani** ([ENSET](https://enset-media.ac.ma/){:target="_blank"}, Mohammedia, Morocco, defended in June 2024)  
   *Accelerating Joint Demosaicing and Unmixing Approaches for Multispectral "Snapshot" Images.*  

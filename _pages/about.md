@@ -29,6 +29,12 @@ Before my Ph.D., I had six years of experience in software development and busin
 
 
 ## News
+### November 2, 2026
+- I will present our work [**"Wavelet-based Demixing for Multivariate Fractional Brownian Motion"**]({{ '/publication/2026-09-01-wavelet-based-demixing-for-multivariate-fractional-brownian-motion' | relative_url }}) at the GdR IASIS scientific day *Geometry and time-series processing*, held at ENS Paris-Saclay in Gif-sur-Yvette. [Event information](https://gdr-iasis.cnrs.fr/reunions-scientifiques/reunions-a-venir/){:target="_blank"}
+
+### October 27, 2026
+- On Tuesday, October 27, I will present our work [**"Wavelet-based Demixing for Multivariate Fractional Brownian Motion"**]({{ '/publication/2026-09-01-wavelet-based-demixing-for-multivariate-fractional-brownian-motion' | relative_url }}) at the ANAIS network meeting in Bordeaux. [ANAIS network](https://anais.math.cnrs.fr/thematiques-du-reseau/){:target="_blank"}
+
 ### June 8, 2026
 - Jhonatan Ancco Cerda presented our latest work on **GAN-based generation and super-resolution of multivariate multifractal textures** at *IA pour les sciences exactes et expérimentales : des architectures à la mise en pratique*, Université Claude Bernard Lyon 1. [Slides](https://kinan3bb3s.github.io/files/GAN_Based_Generation_and_Super_Resolution_of_Multivariate_Multifractal_Textures.pdf){:target="_blank"}
 

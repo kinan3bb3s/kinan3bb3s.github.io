@@ -2,19 +2,14 @@
 title: "Introduction to Algorithms and Programming"
 collection: teaching
 type: "Course"
-permalink: /teaching/2015-spring-teaching-1
-venue: "IUT GIM, ULCO university"
+permalink: /teaching/2024-spring-algorithms-and-programming
+redirect_from:
+  - /teaching/2015-spring-teaching-1
+venue: "IUT GIM, Université du Littoral Côte d’Opale"
 date: 2024-05-01
-location: "Saint Omer, France"
+location: "Saint-Omer, France"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Teaching in algorithms and programming, covering pseudocode and Arduino programming.
 
-Prgramming using Pseudo code
-======
-
-Aurdion Programming
-======
-
-Heading 3
-======
+See the [teaching overview]({{ '/teaching/' | relative_url }}) for the full list of courses and academic years.
